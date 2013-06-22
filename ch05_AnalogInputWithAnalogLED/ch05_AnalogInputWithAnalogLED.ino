@@ -7,6 +7,6 @@ void setup() {
 
 void loop() {
   val = analogRead(0);
-  analogWrite(LED, val/12);
+  analogWrite(LED, val/2);
   delay(10);
 }
