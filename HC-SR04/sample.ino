@@ -2,11 +2,13 @@
 
 #define trigPin 8
 #define echoPin 9
+#define LED 13
 
 void setup() {
   Serial.begin (9600);
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
+  pinMode(LED, OUTPUT);
 }
 
 void loop() {
