@@ -15,7 +15,7 @@ void loop() {
   val = digitalRead(BUTTON);  // 入力を val に格納
 
   if (val == HIGH) {
-    state = 1 - state;
+    state = 1 - state;     // ボタンからの入力でステータスを変える
   }
   
   if (state == 1) {
