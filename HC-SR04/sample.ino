@@ -27,10 +27,12 @@ void loop() {
 
   if (distance >= 300 || distance <= 0){
     Serial.println("Out of range");
+	digitalWrite(LED, HIGH);
   }
   else {
     Serial.print(distance);
     Serial.println(" cm");
+	digitalWrite(LED, LOW);
   }
   delay(500);
 }
