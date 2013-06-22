@@ -8,7 +8,7 @@ void setup() {
 
 void loop() {
   digitalWrite(LED, HIGH);  // turn signal ON (HIGH)
-  delay(100);              // wait 1 second
+  delay(1000);              // wait 1 second
   digitalWrite(LED, LOW);   // turn signal OFF (LOW)
   delay(100);
 }
