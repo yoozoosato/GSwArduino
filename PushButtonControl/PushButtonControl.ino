@@ -3,8 +3,8 @@
 const int LED = 13;        // LEDは13番のピンに刺す
 const int BUTTON = 7;      // ボタンを接続するピン
 
-int val = 0;               // 入力ボタンの状態を保持する変数
-int state = 0;
+int val = 0;
+int state = 0; 　　　　　　// 入力ボタンの状態を保持する変数　　　　　
 
 void setup() {
   pinMode(LED, OUTPUT);
